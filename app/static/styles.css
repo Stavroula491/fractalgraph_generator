@@ -77,3 +77,7 @@ body {
     border-radius: 8px;
     margin-right: 5%;
 }
+
+li{
+     font-family: 'STIX Two Math', serif;
+}
