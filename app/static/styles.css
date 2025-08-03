@@ -81,3 +81,32 @@ body {
 li{
      font-family: 'STIX Two Math', serif;
 }
+
+@media (max-width: 1024px) {
+    body{
+        font-size:x-large;
+    }
+    .parent-container{
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 800px 800px;
+    gap: 3%;
+    }
+
+    .form-container {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    }
+
+    .preview-container {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    margin-left: 0px;
+    }
+
+    .preview-container img {
+    margin-right: 5%;
+    }
+}
